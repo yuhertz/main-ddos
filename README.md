@@ -3,8 +3,8 @@ simple ddos code that is capable of attacking unprotected servers
 
 Set up for Termux
 ```
-apt install git
-apt install python3
+pkg install git
+pkg install python3
 git clone https://github.com/yuhertz/main-ddos
 cd main-ddos
 python3 ddos.py
