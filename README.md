@@ -18,3 +18,5 @@ git clone https://github.com/yuhertz/main-ddos
 cd main-ddos
 python3 ddos.py
 ```
+
+ddos-2 is the second version but not recommended
