@@ -20,3 +20,4 @@ python3 ddos.py
 ```
 
 ddos-2 is the second version but not recommended
+ddos1-2 and ddos2-2 will show if the package been sent
