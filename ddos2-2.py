@@ -1,7 +1,7 @@
 import socket
 
 target_ip = input("Enter the target IP address: ")
-target_port = input(f"Enter the target port: ") or socket.get
+target_port = input("Enter the target port: ")
 
 def ddos_attack():
     while True:
