@@ -1,7 +1,7 @@
 import socket # imports the socket module
 
 target_ip = input("Enter target IP Address: ") # the target IP address to scan
-target_port = input("Enter target port: ") # the target port to scan
+target_port = str(input("Enter target port: ")) # the target port to scan
 
 def ddos_attack(): # defines a function called ddos_attack
     while True:  # creates an infinite loop
