@@ -1,5 +1,6 @@
-simple ddos code that is capable of attacking unprotected servers
+# Main DDoS
 
+All DDoS or DoS attacks are based on this code.
 
 Set up for Termux
 ```
