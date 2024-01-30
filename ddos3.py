@@ -1,18 +1,14 @@
-import socket
-import threading
+import requests
+import time
 
-target_ip = "127.0.0.1"
-target_port = 80
+def visit_website(url, num_visits):
+    for _ in range(num_visits):
+        response = requests.get(url)
+        print(f"Visited {url} - Status Code: {response.status_code}")
+        time.sleep(0)
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+if __name__ == "__main__":
+    website_url = input("Enter the website URL to visit: ")
+    num_visits = int(input("Enter the number of visits: "))
 
-sock.connect((target_ip, target_port))
-
-def send_data():
-    while True:
-        sock.send(b"A" * 1024)
-thread = threading.Thread(target=send_data)
-thread.start()
-
-while True:
-    pass
+    visit_website(website_url, num_visits)
