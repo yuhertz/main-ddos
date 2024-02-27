@@ -1,7 +1,7 @@
 import requests
 import threading
 
-target_website = "https://theflatearthsociety.org/home/"
+target_website = "https://example.com/"
 
 def create_bots():
     bots = []
